@@ -1,0 +1,14 @@
+# mount point	fstype	device					device2				flags
+/boot		emmc	/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/boot
+/cache		ext4	/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/cache
+/recovery	emmc	/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/recovery					
+/system		ext4	/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/system
+/data		ext4	/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/userdata					length=-16384
+/persist		ext4	/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/persist
+/nvdata		ext4	/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/nvdata
+/nvcfg		ext4	/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/nvcfg
+/persistent		emmc	/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/frp
+/nvram		emmc	/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/nvram
+
+# Removable storage
+/usb_otg	vfat	/devices/soc/11270000.usb3_xhci*		flags=display="USB-OTG";storage;wipeingui;removable
